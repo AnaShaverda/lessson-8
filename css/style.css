@@ -1,0 +1,140 @@
+.container {
+  background-color: #cad9fc;
+  width: 100vw;
+  height: 300vh;
+  position: relative;
+  z-index: 5;
+}
+.form-wrapper {
+  margin-top: 600px;
+  background-color: white;
+  width: 50%;
+  padding: 30px 0px;
+  border-radius: 20px;
+  position: absolute;
+  left: 50%;
+  /* top: 50%; */
+  transform: translate(-50%, -50%);
+  padding-top: 50px;
+}
+
+.form {
+  width: 300px;
+  margin: 0 auto;
+}
+.title {
+  text-align: center;
+}
+input {
+  width: 100%;
+}
+.my-button {
+  background-color: #ff9800;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 10px;
+  cursor: pointer;
+  opacity: 1;
+}
+
+.my-button:hover {
+  background-color: #bd7a14;
+}
+.my-button:focus {
+  outline: 2px solid black;
+  border: 3px solid red;
+}
+.my-button:disabled {
+  opacity: 0.5;
+  cursor: no;
+}
+.link {
+  color: blue;
+  padding: 10px;
+  transition: 1s;
+}
+.link:hover {
+  background-color: #bd7a14;
+  color: white;
+}
+.link:active {
+  transform: scale(0.9);
+}
+.link:visited {
+  color: purple;
+  background-color: purple;
+}
+.text {
+  margin-left: 10px;
+}
+.text::before {
+  content: "🔥";
+}
+.par::first-line {
+  content: "jhsadkjhaskdjh";
+  font-style: italic;
+  color: red;
+}
+.par::first-letter {
+  font-size: 30px;
+}
+.nav {
+  margin-left: 10px;
+}
+.nav-ul li {
+  background-color: #ff9800;
+  margin-bottom: 10px;
+}
+
+.nav-ul li:first-child {
+  background-color: red;
+}
+
+.nav-ul li:last-child {
+  background-color: red;
+}
+
+.nav-ul li:nth-child(odd) {
+  background-color: green;
+}
+
+.nav-ul li:nth-child(even) {
+  background-color: grey;
+}
+.nav-ul li:nth-child(4) {
+  background-color: red;
+}
+
+.form-wrapper div:nth-child(3) {
+  background-color: grey;
+  padding: 10px;
+}
+.nav {
+  background-color: white;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+.box {
+  border: 1px solid green;
+  width: 100px;
+  position: sticky;
+  top: 0;
+  left: 40px;
+}
+
+.portal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: black;
+  opacity: 0.6;
+  height: 100vh;
+  width: 100vw;
+  z-index: 100;
+}
